@@ -1,24 +1,17 @@
 # StreetGuess SA Installer
 
-This repository is only for downloading the current Windows installer for StreetGuess SA.
+This repository is for downloading the latest Windows installer for StreetGuess SA.
 
-## Download
+## Quick Links
 
-Open the latest GitHub Release and download:
-- StreetGuess-SA-Installer.exe
-
-## Test Backend
-
-Current shared test backend:
-- https://gta-sa-geoguessr-3pl5.onrender.com
+- Latest installer: [https://github.com/turqed/streetguess-sa-installer/releases/latest/download/StreetGuess-SA-Installer.exe](https://github.com/turqed/streetguess-sa-installer/releases/latest/download/StreetGuess-SA-Installer.exe)
+- SHA256 checksum: [https://github.com/turqed/streetguess-sa-installer/releases/latest/download/StreetGuess-SA-Installer.sha256.txt](https://github.com/turqed/streetguess-sa-installer/releases/latest/download/StreetGuess-SA-Installer.sha256.txt)
+- Release page: [https://github.com/turqed/streetguess-sa-installer/releases](https://github.com/turqed/streetguess-sa-installer/releases)
+- Download page: [https://turqed.github.io/streetguess-sa-installer/](https://turqed.github.io/streetguess-sa-installer/)
+- Test backend health: [https://gta-sa-geoguessr-3pl5.onrender.com/api/health](https://gta-sa-geoguessr-3pl5.onrender.com/api/health)
 
 ## Notes
 
-- This is the installer-only repository.
-- The source repository stays separate.
-- Use the latest Release asset for testing with friends.
-
-## Source
-
-Private/main project source reference:
-- https://github.com/turqed/gta-sa-geoguessr
+- This repo contains installer downloads only.
+- The source project is kept separately.
+- Use the latest Release asset when sharing the game with friends.
