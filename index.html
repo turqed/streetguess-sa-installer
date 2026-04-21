@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>StreetGuess SA Download</title>
+  <style>
+    :root {
+      --bg: #090909;
+      --panel: rgba(20,20,20,.92);
+      --line: rgba(255,174,0,.22);
+      --accent: #ffae00;
+      --text: #f4f4f4;
+      --muted: #b8b0a3;
+      --buttonText: #111;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      font-family: Segoe UI, Arial, sans-serif;
+      color: var(--text);
+      background:
+        radial-gradient(circle at top left, rgba(255,174,0,.18), transparent 28%),
+        radial-gradient(circle at bottom right, rgba(255,174,0,.10), transparent 24%),
+        linear-gradient(180deg, #0b0b0b, #060606 65%);
+      display: grid;
+      place-items: center;
+      padding: 24px;
+    }
+    .card {
+      width: min(760px, 100%);
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 28px;
+      padding: 28px;
+      box-shadow: 0 24px 80px rgba(0,0,0,.45);
+    }
+    .chip {
+      display: inline-block;
+      padding: 10px 16px;
+      border-radius: 999px;
+      background: rgba(255,174,0,.12);
+      border: 1px solid rgba(255,174,0,.16);
+      color: var(--accent);
+      letter-spacing: .18em;
+      text-transform: uppercase;
+      font-size: 12px;
+      margin-bottom: 18px;
+    }
+    h1 {
+      margin: 0 0 12px;
+      font-size: clamp(38px, 6vw, 68px);
+      line-height: .96;
+    }
+    p {
+      color: var(--muted);
+      font-size: 18px;
+      line-height: 1.6;
+      margin: 0 0 16px;
+    }
+    .actions {
+      display: grid;
+      gap: 12px;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      margin: 28px 0;
+    }
+    .btn {
+      text-decoration: none;
+      border-radius: 18px;
+      padding: 16px 18px;
+      text-align: center;
+      font-weight: 700;
+      transition: transform .16s ease, opacity .16s ease, background .16s ease;
+    }
+    .btn:hover { transform: translateY(-1px); }
+    .btn.primary {
+      background: var(--accent);
+      color: var(--buttonText);
+    }
+    .btn.secondary {
+      background: rgba(255,255,255,.04);
+      color: var(--text);
+      border: 1px solid rgba(255,255,255,.08);
+    }
+    .meta {
+      display: grid;
+      gap: 14px;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      margin-top: 16px;
+    }
+    .meta-card {
+      border-radius: 18px;
+      padding: 16px;
+      background: rgba(255,255,255,.03);
+      border: 1px solid rgba(255,255,255,.06);
+    }
+    .meta-label {
+      color: var(--accent);
+      text-transform: uppercase;
+      letter-spacing: .12em;
+      font-size: 12px;
+      margin-bottom: 8px;
+    }
+    .meta-card a { color: var(--text); word-break: break-all; }
+    footer {
+      margin-top: 24px;
+      color: rgba(255,255,255,.5);
+      font-size: 13px;
+    }
+  </style>
+</head>
+<body>
+  <main class="card">
+    <div class="chip">Friend Test Build</div>
+    <h1>StreetGuess SA</h1>
+    <p>Use the button below to download the latest Windows installer. This page always points to the newest shared test build.</p>
+    <div class="actions">
+      <a class="btn primary" href="https://github.com/turqed/streetguess-sa-installer/releases/latest/download/StreetGuess-SA-Installer.exe">Download Latest Installer</a>
+      <a class="btn secondary" href="https://github.com/turqed/streetguess-sa-installer/releases">Open Release Page</a>
+      <a class="btn secondary" href="https://github.com/turqed/streetguess-sa-installer/releases/latest/download/StreetGuess-SA-Installer.sha256.txt">Download SHA256</a>
+    </div>
+    <div class="meta">
+      <section class="meta-card">
+        <div class="meta-label">Backend</div>
+        <a href="https://gta-sa-geoguessr-3pl5.onrender.com">https://gta-sa-geoguessr-3pl5.onrender.com</a>
+      </section>
+      <section class="meta-card">
+        <div class="meta-label">Health</div>
+        <a href="https://gta-sa-geoguessr-3pl5.onrender.com/api/health">https://gta-sa-geoguessr-3pl5.onrender.com/api/health</a>
+      </section>
+      <section class="meta-card">
+        <div class="meta-label">Repository</div>
+        <a href="https://github.com/turqed/streetguess-sa-installer">https://github.com/turqed/streetguess-sa-installer</a>
+      </section>
+    </div>
+    <footer>For source code access, use the separate private project repository.</footer>
+  </main>
+</body>
+</html>
