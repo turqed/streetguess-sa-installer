@@ -10,6 +10,6 @@ This repository is the public download/update feed for StreetGuess SA.
 
 ## Current launcher version
 
-- 0.1.2
+- 0.1.3
 
 Players only need the installer. After install, the launcher can discover newer launcher versions automatically through the public update manifest.
